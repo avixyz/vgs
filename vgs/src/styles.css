@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+    line-height: 21px;
+    font-family: "brandon-grotesque", "Brandon Grotesque", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+}
+
+.nav-link {
+    line-height: 21px;
+    font-family: "brandon-grotesque", "Brandon Grotesque", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-hover {
+    color: #5f899e;
+}

@@ -1,21 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
-body {
-    line-height: 21px;
-    font-family: "brandon-grotesque", "Brandon Grotesque", "Helvetica", "Arial", sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 14px;
-}
-
 .nav-link {
     line-height: 21px;
-    font-family: "brandon-grotesque", "Brandon Grotesque", "Helvetica", "Arial", sans-serif;
+    font-family: 'proxima-nova', Proxima Nova, 'Helvetica Neue', Helvetica, sans-serif;
     letter-spacing: 1.2px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .nav-hover {
     color: #5f899e;
+}
+
+.jumbotron {
+    background-image: url('https://unsplash.com/photos/EPZfmhsYlek/download?force=true');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 0px;
+    text-shadow: 2px 2px #000;
+    min-height: 768px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'proxima-nova', Proxima Nova, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.1;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 1.2px;
+}
+
+.overlay {
+    background-color: #000;
+    opacity: 0.30;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bg-cover {
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
 }

@@ -6,11 +6,15 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { JumboComponent } from './jumbo/jumbo.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    JumboComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

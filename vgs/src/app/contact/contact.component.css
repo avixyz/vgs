@@ -1,0 +1,76 @@
+.contactbg {
+    background-image: url("https://www.digitsglobal.com/application/media/2015/10/contact-us-background.png");
+    height: 850px;
+    margin-top: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2 {
+    color: #323a45;
+    font-size: 30px;
+    line-height: 52px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.formindiv {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.forminput {
+    width: 100%;
+    /* border: 1px solid #d0d5d8; */
+    line-height: 1em;
+    border-radius: 3px;
+    padding: 18px 15px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #cdd2d6;
+    outline: none;
+    font-weight: 400px;
+    margin: 10px;
+}
+
+input.ng-touched {
+    color: #8a959e;
+}
+
+textarea.ng-touched {
+    color: #8a959e;
+}
+
+input.ng-invalid.ng-touched {
+    border-left: 5px solid red;
+}
+
+textarea.ng-invalid.ng-touched {
+    border-left: 5px solid red;
+}
+
+.contact-button {
+    color: white;
+    background-color: #d55e2a;
+    border: none;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 23px 40px 22px;
+    width: 100%;
+    margin: 10px;
+}
+
+.contact-button-hover {
+    cursor: pointer;
+    color: #d55e2a;
+    background-color: white;
+}
+
+.error {
+    text-align: left;
+}

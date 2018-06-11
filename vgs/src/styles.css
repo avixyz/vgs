@@ -1,35 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
-h1{
-    font-size:64px;
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+h1 {
+    font-size: 52px;
 }
 
-html body{
-    margin:0px;
-    padding:0px;
-    line-height: 21px;
+html body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 16px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1.2px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
 }
+
 .nav-link {
     line-height: 16px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1.2px;
     font-weight: 400;
     font-size: 16px;
-    color:#595959; 
-    
+    color: #595959;
 }
 
-
-.navbar>a>img{
-    height:50px;
+.recheader {
+    margin-top: 70px;
 }
 
-.navbar-brand{
-    margin-left:10px;
-    
+.navbar>a>img {
+    height: 50px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
 }
 
 .jumbotron {
@@ -38,7 +42,7 @@ html body{
     background-attachment: fixed;
     text-align: left;
     margin-top: 0px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     padding-left: 0px;
     text-shadow: 2px 2px #000;
     min-height: 1024px;
@@ -46,10 +50,15 @@ html body{
     justify-content: center;
     font-family: "Open Sans", sans-serif;
     line-height: 1.1;
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 24px;
     letter-spacing: 1.2px;
     z-index: 1;
+}
+
+.jumbtotron1 {
+    background-image: url("https://unsplash.com/photos/bphc6kyobMg/download?force=true");
+    min-height: 250px;
 }
 
 .overlay {
@@ -71,46 +80,39 @@ html body{
     /* z-index: -2; */
 }
 
-button{
-    z-index:100;
+button {
+    z-index: 100;
 }
 
-.btn-primary{
-    color:white;
+.btn-primary {
+    color: white;
     background-color: #d55e2a;
-    border:none;
-
-    font-size:24px;
-
+    border: none;
+    font-size: 24px;
     letter-spacing: 1px;
-    font-weight:500;
+    font-weight: 500;
     padding: 10px 30px;
     transition: all 0.3s ease;
 }
 
-.btn-primary-hover{
-    color:white;
+.btn-primary-hover {
+    color: white;
     background-color: #1d2023;
-
 }
 
-
-.btn-in-dark{
-    color:white;
+.btn-in-dark {
+    color: white;
     background-color: #d55e2a;
- 
-
-    font-size:24px;
-
+    font-size: 24px;
     letter-spacing: 1px;
-    font-weight:500;
+    font-weight: 500;
     padding: 10px 30px;
     transition: all 0.3s ease;
-    border:3px solid white;
-    padding:10px;
+    border: 3px solid white;
+    padding: 10px;
 }
 
-.btn-dark-hover{
-    color:#d55e2a;
-   background-color:white;
+.btn-dark-hover {
+    color: #d55e2a;
+    background-color: white;
 }

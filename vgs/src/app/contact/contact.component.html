@@ -1,0 +1,47 @@
+<div class="container-fluid contactbg">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <h2>Get In Touch</h2>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+            <form #contactform="ngForm" class="formindiv" (ngSubmit)="onSubmit(contactform)">
+
+                <mat-form-field class="formindiv">
+                    <input matInput placeholder="Name" [formControl]="name" required>
+                    <mat-error *ngIf="name.invalid">{{getnameErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="formindiv">
+                    <input matInput placeholder="Company" [formControl]="company">
+
+                </mat-form-field>
+
+                <mat-form-field class="formindiv">
+                    <input type="tel" matInput placeholder="Phone" [formControl]="phone">
+                    <mat-error *ngIf="phone.invalid">{{getphoneErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="formindiv">
+                    <input matInput placeholder="Email" [formControl]="email">
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="formindiv">
+                    <textarea rows="5" cols="50" matInput placeholder="Message" minlength="10" [formControl]="message"></textarea>
+                    <!-- <mat-hint align="end">Minimum 10 characters</mat-hint> -->
+                    <mat-error *ngIf="message.invalid">{{getmsgErrorMessage()}}</mat-error>
+                </mat-form-field>
+                <button class="contact-button" type="submit" [ngClass]="{'contact-button-hover':buttonHover}" (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()">SEND IT!</button>
+            </form>
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
+</div>

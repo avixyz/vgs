@@ -1,11 +1,32 @@
-.row{
+.row {
     background-color: #f9f9f9;
-    border-top:2px solid rgba(207,215,223,.25);
-    padding-top:0px;
-  
-   text-align: center;
-   padding:45px;
-   text-transform: uppercase;
-   margin-bottom:50px;
+    border-top: 2px solid rgba(207, 215, 223, .25);
+    padding-top: 0px;
+    text-align: center;
+    padding: 45px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
+mat-card-content {
+    font-family: "Sans bold", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 19px;
+}
+
+.card-img-top {
+    margin-top: 15px;
+}
+
+.card-title {
+    color: #1C4F75;
+}
+
+.card-text {
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: justify;
+}

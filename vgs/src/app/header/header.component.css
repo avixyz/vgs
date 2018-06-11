@@ -1,0 +1,13 @@
+.navbar-brand {
+    /* font-family: "Open Sans", sans-serif; */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #222c3a;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-link-hover {
+    border-bottom: 1px solid #d55e2a;
+}

@@ -1,12 +1,18 @@
-<div class="jumbotron jumbotron-fluid col-md-12 bg-cover d-flex align-items-center">
-    <div class="container ">
-        <div class="overlay"></div>
-        <h2> Pioneers in Conveyors and <br> Filtration Units<br></h2>
+<div class="jumbotron jumbotron-fluid col-md-12 bg-cover d-flex align-items-center" >
+    <div class="container" >
+        <div class="overlay" ></div>
+        <h1 style="text-align:center;"> {{jumboText}}<br></h1>
 
-        <div class="lead">
+        <div class="lead" style="text-align:center">
             <i>Sales, Service and Accessories</i>
         </div><br>
-        <button class="btn btn-info btn-rounded">Download Our Brochure  <span class="fas fa-download"></span></button>
+            <div  style="text-align:center">
+       
+        <button   (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()" class="btn btn-in-dark"  
+        [ngClass]="{'btn-dark-hover':hover}">Download Our Brochure  <span class="fas fa-download"></span></button>
+    </div>
+
     </div>
 
 </div>
+

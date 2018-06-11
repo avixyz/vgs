@@ -1,0 +1,50 @@
+.contactarea{
+    margin-top:10px;
+    box-sizing:border-box;
+
+    text-align: center;
+
+    font-size:30px;
+
+    letter-spacing: 1px;
+    font-weight:500;
+    padding: 20px 20px;
+}
+
+.abovefooter{
+    background-color: #f9f9f9;
+    border-top:2px solid rgba(207,215,223,.25);
+}
+.contacttext{
+    font-size:21px;
+
+    letter-spacing: 1px;
+    font-weight:500;
+    padding:20px;
+}
+
+.footer{
+
+  
+    background-color:#19202a;
+    text-align: center;
+    width:100%;
+    padding:0px;
+    margin:0;
+    height:50px;
+}
+
+
+.addressdetail{
+    font-size:15px;
+
+    letter-spacing: 1px;
+ 
+    font-weight:200;
+    padding:10px;
+    
+    color:#afb5be;
+
+    /* text-transform: uppercase; */
+    text-align: left;
+}

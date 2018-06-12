@@ -1,0 +1,33 @@
+body {
+    /* background-color: #f5f7fa; */
+    background-color: red;
+    height: 100%;
+}
+
+.section {
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.header {
+    color: #555f77;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content {
+    font-size: 18px;
+    margin-bottom: 3rem;
+    line-height: 1.25;
+    color: #555f77;
+    font-family: "Open Sans", sans-serif;
+}
+
+.row {
+    background-color: transparent;
+}

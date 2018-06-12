@@ -30,6 +30,7 @@ export class HeaderComponent implements OnInit {
 
  setHover(menu:string){
     if(menu=='about'){
+      console.log("came here");
       this.abouthover=true;
       
     }
@@ -41,6 +42,8 @@ export class HeaderComponent implements OnInit {
     }
 
   }
+
+
 onMouseOver($event){
   if($event.target.id=='about'){
     this.abouthover=true;

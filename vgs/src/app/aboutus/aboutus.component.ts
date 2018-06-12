@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CurrentmenuService } from '../currentmenu.service';
 
 @Component({
   selector: 'app-aboutus',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutusComponent implements OnInit {
 
-  constructor() { }
+  constructor(private menuService:CurrentmenuService) { }
 
   ngOnInit() {
+
+    this.menuService.changeMenu('about');
   }
 
 }
